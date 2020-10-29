@@ -1,6 +1,6 @@
 {
   "name": "element-ui-boot",
-  "version": "0.1.0",
+  "version": "0.1.22",
   "main": "dist/element-ui-boot.common.js",
   "files": [
     "dist",
