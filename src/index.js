@@ -1,3 +1,8 @@
+import 'normalize.css/normalize.css'
+import '@/styles/index.scss'
+import '@/icons'
+import '@/permission'
+
 import Breadcrumb from './components/Breadcrumb'
 import Hamburger from './components/Hamburger'
 import SvgIcon from './components/SvgIcon'
@@ -24,3 +29,7 @@ export default {
     install,
     ...components
 }
+
+export { default as router } from './router'
+export { default as store } from './store'
+export { default as Layout } from './layout'
