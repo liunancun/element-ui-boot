@@ -1,0 +1,4 @@
+ResizeHandler.js文件中去掉route参数
+Breadcrumb组件增加name属性
+router/index.js路由改成history模式
+settings.js文件中fixedHeader和sidebarLogo都设置为true开启状态
