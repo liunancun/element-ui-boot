@@ -1,6 +1,6 @@
 {
   "name": "element-ui-boot",
-  "version": "0.1.25",
+  "version": "0.1.26",
   "main": "dist/element-ui-boot.umd.min.js",
   "files": [
     "dist",

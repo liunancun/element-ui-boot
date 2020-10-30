@@ -5,7 +5,7 @@ import '@/permission'
 
 // 清理路由
 import { constantRoutes, asyncRoutes } from './router'
-constantRoutes.splice(2)
+constantRoutes.splice(3)
 asyncRoutes.splice(0, 2)
 
 import Breadcrumb from './components/Breadcrumb'
@@ -26,6 +26,7 @@ const install = function (Vue, opts = {}) {
     });
 
     if (opts.routes) {
+        constantRoutes.splice(2)
         asyncRoutes.unshift(...opts.routes)
     }
 }
@@ -44,3 +45,4 @@ export { default as store } from './store'
 export { default as Layout } from './layout'
 export { default as Login } from '@/views/login/index'
 export { default as E404 } from '@/views/404'
+export { default as Dashboard } from '@/views/dashboard/index'
