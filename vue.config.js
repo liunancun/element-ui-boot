@@ -29,5 +29,8 @@ module.exports = {
                 symbolId: 'icon-[name]'
             })
             .end()
+    },
+    css: {
+        extract: false
     }
 }

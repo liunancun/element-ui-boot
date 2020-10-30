@@ -33,3 +33,6 @@ export default {
 export { default as router } from './router'
 export { default as store } from './store'
 export { default as Layout } from './layout'
+export { default as Login } from '@/views/login/index'
+export { default as E404 } from '@/views/404'
+export { default as Dashboard } from '@/views/dashboard/index'
