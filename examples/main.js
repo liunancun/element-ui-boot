@@ -7,6 +7,11 @@ import './plugins/element.js'
 import Boot from '../src/index'
 Vue.use(Boot, { routes })
 
+if (process.env.NODE_ENV === 'production') {
+  const { mockXHR } = require('../mock')
+  mockXHR()
+}
+
 Vue.config.productionTip = false
 
 new Vue({
