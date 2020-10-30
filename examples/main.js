@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
+import { router, routes } from './router'
 import store from './store'
 import './plugins/element.js'
 
 import Boot from '../src/index'
-Vue.use(Boot)
+Vue.use(Boot, { routes })
 
 Vue.config.productionTip = false
 
