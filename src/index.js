@@ -4,7 +4,7 @@ import '@/icons'
 import '@/permission'
 
 // 重置路由
-import { constantRoutes, asyncRoutes } from './router'
+import { constantRoutes, asyncRoutes, resetRouter } from './router'
 constantRoutes.splice(3)
 asyncRoutes.splice(0, 2)
 
@@ -29,6 +29,7 @@ const install = function (Vue, opts = {}) {
 
     if (opts.routes) {
         constantRoutes.splice(2)
+        resetRouter()
         asyncRoutes.unshift(...opts.routes)
     }
 }
