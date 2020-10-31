@@ -1,6 +1,7 @@
 import 'normalize.css/normalize.css'
 import '@/styles/index.scss'
 import '@/icons'
+import '@/sso'
 import '@/permission'
 
 // 重置路由
